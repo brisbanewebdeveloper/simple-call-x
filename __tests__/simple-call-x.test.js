@@ -1,4 +1,4 @@
-import call from '../src/call-x';
+import call from '../src/simple-call-x';
 
 describe('testSubject', function() {
   it('is a function', function() {

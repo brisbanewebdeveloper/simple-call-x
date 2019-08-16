@@ -1,14 +1,15 @@
 {
-  "name": "call-x",
+  "name": "simple-call-x",
   "version": "1.0.0",
   "description": "The abstract operation Call is used to call the [[Call]] internal method of a function object.",
-  "homepage": "https://github.com/Xotic750/call-x",
+  "homepage": "https://github.com/Xotic750/simple-call-x",
   "author": {
     "name": "Graham Fairweather",
     "email": "xotic750@gmail.com"
   },
   "copyright": "Copyright (c) 2019-present",
   "keywords": [
+    "simple",
     "abstract",
     "call",
     "module",
@@ -20,11 +21,11 @@
     "dist",
     "src"
   ],
-  "module": "dist/call-x.esm.js",
-  "main": "dist/call-x.js",
-  "jsdelivr": "dist/call-x.min.js",
+  "module": "dist/simple-call-x.esm.js",
+  "main": "dist/simple-call-x.js",
+  "jsdelivr": "dist/simple-call-x.min.js",
   "scripts": {
-    "build:esm": "mkdirp dist && babel -s true --env-name esm src/call-x.js -o dist/call-x.esm.js",
+    "build:esm": "mkdirp dist && babel -s true --env-name esm src/simple-call-x.js -o dist/simple-call-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
     "build": "npm run build:esm && cross-env NODE_ENV=production npm run build:base --",
     "build:dev": "npm run build:base --",
@@ -45,10 +46,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xotic750/call-x.git"
+    "url": "https://github.com/Xotic750/simple-call-x.git"
   },
   "bugs": {
-    "url": "https://github.com/Xotic750/call-x/issues"
+    "url": "https://github.com/Xotic750/simple-call-x/issues"
   },
   "dependencies": {
     "is-primitive-x": "^1.0.0",
