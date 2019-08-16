@@ -77,4 +77,6 @@ The abstract operation Call is used to call the [[Call]] internal method of a fu
 
 ```js
 import call from 'simple-call-x';
+
+console.log(call([].split, '123', '')); // ['1', '2', '3']
 ```

@@ -1,6 +1,5 @@
+import pusher from 'util-pusher-x';
 import bind from 'simple-bind-x';
-import isPrimitive from 'is-primitive-x';
-import splitIfBoxedBug from 'split-if-boxed-bug-x';
 
 const $TypeError = TypeError;
 const {apply: nativeApply, call: nativeCall} = bind;
@@ -15,23 +14,6 @@ const assertIsFunction = function assertIsFunction(value) {
   }
 
   return value;
-};
-
-const pushAll = function pushAll(arrayLike) {
-  const target = [];
-
-  if (typeof arrayLike !== 'string' && isPrimitive(arrayLike)) {
-    return target;
-  }
-
-  const iterable = splitIfBoxedBug(arrayLike);
-  const len = iterable.length;
-
-  for (let i = 0; i < len; i += 1) {
-    target[target.length] = iterable[i];
-  }
-
-  return target;
 };
 
 // eslint-disable jsdoc/check-param-names
@@ -50,7 +32,7 @@ const pushAll = function pushAll(arrayLike) {
 // eslint-enable jsdoc/check-param-names
 const call = function call(F, V) {
   /* eslint-disable-next-line prefer-rest-params */
-  return $apply(assertIsFunction(F), V, pushAll(arguments[2]));
+  return $apply(assertIsFunction(F), V, pusher(arguments[2]));
 };
 
 export default call;
