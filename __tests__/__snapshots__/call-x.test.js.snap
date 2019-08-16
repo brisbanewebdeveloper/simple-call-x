@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testSubject args 1`] = `
+Object {
+  "a": 1,
+  "b": 2,
+  "c": 3,
+  "context": Object {},
+}
+`;
+
+exports[`testSubject args other 1`] = `
+Object {
+  "a": undefined,
+  "b": undefined,
+  "c": undefined,
+  "context": Object {},
+}
+`;
+
+exports[`testSubject args string 1`] = `
+Object {
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "context": Object {},
+}
+`;
+
+exports[`testSubject should throw when target not a function 1`] = `"undefined is not a function"`;
+
+exports[`testSubject should throw when target not a function 2`] = `"undefined is not a function"`;
+
+exports[`testSubject should throw when target not a function 3`] = `"null is not a function"`;
+
+exports[`testSubject should throw when target not a function 4`] = `"1 is not a function"`;
+
+exports[`testSubject should throw when target not a function 5`] = `"true is not a function"`;
+
+exports[`testSubject should throw when target not a function 6`] = `" is not a function"`;
