@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2019-present",
-  "date": "2019-08-28T14:42:29.420Z",
+  "date": "2019-08-28T16:34:25.409Z",
   "describe": "",
   "description": "The abstract operation Call is used to call the [[Call]] internal method of a function object.",
   "file": "simple-call-x.js",
   "hash": "513d71c11982d6db56fa",
   "license": "MIT",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {

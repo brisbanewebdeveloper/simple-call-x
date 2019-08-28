@@ -1,6 +1,6 @@
 {
   "name": "simple-call-x",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The abstract operation Call is used to call the [[Call]] internal method of a function object.",
   "homepage": "https://github.com/Xotic750/simple-call-x",
   "author": {
@@ -52,8 +52,8 @@
     "url": "https://github.com/Xotic750/simple-call-x/issues"
   },
   "dependencies": {
-    "simple-bind-x": "^1.0.2",
-    "util-pusher-x": "^1.0.2"
+    "simple-bind-x": "^1.0.3",
+    "util-pusher-x": "^1.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
