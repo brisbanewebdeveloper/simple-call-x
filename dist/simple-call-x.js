@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2019-present",
-  "date": "2019-08-30T21:17:26.995Z",
+  "date": "2019-09-04T22:23:40.804Z",
   "describe": "",
   "description": "The abstract operation Call is used to call the [[Call]] internal method of a function object.",
   "file": "simple-call-x.js",
